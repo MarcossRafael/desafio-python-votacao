@@ -2,7 +2,6 @@ from contextlib import asynccontextmanager
 from typing import AsyncGenerator
 
 from fastapi import FastAPI
-from sqlalchemy import select
 
 from app.database import init_db, SessionLocal
 from app.models import Candidato
