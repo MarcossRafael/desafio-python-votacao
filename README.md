@@ -33,7 +33,7 @@ O Poetry já cria e gerencia o ambiente virtual automaticamente. Não precisa cr
 poetry run uvicorn app.main:app --reload
 ```
 
-A API vai estar rodando em `http://localhost:8000`. Para testar de forma visual, acesse `http://localhost:8000/docs` — lá tem uma interface onde você consegue chamar cada endpoint direto pelo navegador.
+A API vai estar rodando em `http://localhost:8000`. Para testar de forma visual, acesse `http://localhost:8000/docs`, lá tem uma interface onde você consegue chamar cada endpoint direto pelo navegador.
 
 ---
 
